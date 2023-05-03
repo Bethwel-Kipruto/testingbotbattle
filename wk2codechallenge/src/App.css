@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  
+}
+
+.botCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 30%;
+ 
+  margin: 14px;
+  box-shadow: 0 2px 4px 0 rgb(88, 63, 63);
+  word-wrap: break-word;
+  border-radius: 15px;
+}
+
+.deleteCard {
+  background-color: white;
+  color: black;
+  padding: 15px;
+  text-align: justify;
+  font-size: 12px;
+}
+
+.deleteCard:hover {
+  background-color: red;
+}
+
+h1 {
+  font-style: oblique;
+  font-size: 32px;
+}
+
+
+.addBot h1 {
+  color: aliceblue;
+}
